@@ -1,0 +1,392 @@
+body{
+    background-color: lightcyan;
+    margin:0px;
+}
+
+h1{
+    font-family: georgia, times, serif;
+    margin-bottom: 5px;
+    margin-top: 0px; 
+    text-align: left;}
+h2{
+    font-family: georgia, times, serif;
+    color:red;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+h3{
+    padding-left: 10px;
+}
+h6{
+    padding-left: 15px;
+}
+
+footer{
+    padding-top: 620px;
+}
+
+#slider{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    
+}
+
+nav{
+    background-color: black;
+}
+nav a{
+    transition: color 0.5s ease-out; 
+    color:white;
+    text-decoration: none; 
+    padding:10px;
+    display: block;
+}
+
+nav a:hover{
+    color:black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+}
+
+li {
+    letter-spacing: 2px;
+    float: left;
+    width: 20%;
+    text-decoration-color: lightcyan;
+}
+
+li a .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: lightcyan;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 180px;
+    width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+.dropdown-content a {
+    color: black;
+    padding-left: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: lightcyan;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#gallery{
+    padding: 10px 10px 10px 10px;
+
+}
+div.img {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 0px;
+    text-align: center;
+    font:georgia; }
+
+label{
+    float:left;
+    display:block;
+    text-align:right;
+    width:120px; 
+    padding-right:10px; }
+
+input{
+    display: block;
+    margin-bottom: 20px; }
+
+textarea{
+    display: block;
+    margin-bottom: 20px; }
+
+.submit-button{
+    margin-left: 130px }
+
+.text{
+    text-align: left;}
+
+tr:nth-of-type(odd){
+    background-color:#f3f3f3; } 
+
+#wedding01{
+    height: 750px;
+    background-image: url("wedding01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;}
+
+
+#grad1{
+    height: 750px;
+    background-image: url("grad02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black; }
+
+#missionary01{
+    height: 750px;
+    background-image: url("missionary01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;}
+
+#logo{
+    height: 110px;
+    background-image: url("logo01.png");
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 24px
+}
+#love{
+    position: relative;
+    height: 30px;
+    background-image: url("love.png");
+    background-size: 550px 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    z-index: -1;
+
+}
+#bridal{
+    height: 750px;
+    background-image: url("bridal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#family{
+    height: 750px;
+    background-image: url("fam01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#bridal2{
+    height: 750px;
+    background-image: url("bridal2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#engagement{
+    height: 750px;
+    background-image: url("engagement.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#wedday{
+    height: 750px;
+    background-image: url("wedday.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#famprices{
+    height: 450px;
+    background-image: url("famprices.png");
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#bridalsprices{
+    height: 450px;
+    background-image: url("bridalsprices.png");
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#engagementprices{
+    height: 450px;
+    background-image: url("engagementprices.png");
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#weddayprices{
+    height: 450px;
+    background-image: url("weddayprices.png");
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#missionaryprices{
+    height: 450px;
+    background-image: url("missionaryprices.png");
+    background-size: 800px 550px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+#seniorprices{
+    height: 450px;
+    background-image: url("seniorprices.png");
+    background-size: 800px 450px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: black;
+}
+
+@media only screen and (max-width:600px) {
+    nav ul li{
+        float:none;
+        display:block;
+        width:100%; }
+
+    #slider{
+    position: relative;
+    left: 0px;
+    top: 0px; }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: lightgray;
+        min-width: 180px;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); }
+
+    .dropdown-content a {
+    color: black;
+    padding-left: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;  }
+
+
+    #bridal2{
+        max-height: 250px;
+        background-size: cover;
+    }
+
+    #engagement{
+        max-height: 250px;
+        background-size: cover;
+    }
+
+    #wedday{
+        max-height: 250px;
+        background-size: cover;
+    }
+
+    #family{
+        max-height: 250px;
+        background-size: cover;
+    }
+
+     #missionary01{
+        max-height: 200px;
+        background-size: cover;
+    }
+
+     #grad1{
+        max-height: 250px;
+        background-size: cover;
+    }
+
+
+    #bridalsprices{
+        max-height: 300px;
+        background-size: contain;
+    }
+
+    #engagementprices{
+        max-height: 300px;
+        background-size: contain;
+    }
+
+    #weddayprices{
+        max-height: 300px;
+        background-size: contain;
+    }
+
+    #missionaryprices{
+        max-height: 300px;
+        background-size: contain;
+    }
+
+    #seniorprices{
+        max-height: 300px;
+        background-size: contain;
+    }
+
+    #famprices{
+        max-height: 250px;
+        background-size: contain;
+    }
+
+    
+
+
+}
